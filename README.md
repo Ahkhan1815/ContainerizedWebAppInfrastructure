@@ -7,13 +7,13 @@ Overview: This project deploys a docker-containerized app onto a privately manag
 Purpose: The purpose of this project is to further implement DevOps principles in a production-like environment. My previous project focused on cloud deployment with AWS ECS + Cloudwatch; this project explores deplpying services in an on-prem environment. The app employs a spring boot backend to expand my experience beyond flask and node. App traffic will be handled with nginx, which replicates industry practices. Grafana will be used to monitor app health, with plans to send out alerts in cases of service errors.
 
 # Tech Stack:
-
+```
 Frontend: (TBD)
 Backend: Spring Boot
 Database: MongoDB (TBD)
 Deployment: Github Actions, Docker
 Tools: Nginx, Grafana
-
+```
 ## Architecture:
 ```
 User
